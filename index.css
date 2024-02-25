@@ -53,3 +53,39 @@ nav{
     /* height: 40px;
     width: 200px; */
 }
+
+
+/* banner */
+.banner{
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(#9D4BEB,#583AD6);
+}
+
+
+.banner_info{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.banner_info div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+   height: fit-content;
+}
+
+.learn_button{
+    height: fit-content;
+    width: fit-content;
+    background-color: #04D2C8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
