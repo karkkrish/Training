@@ -1,18 +1,55 @@
-h2{
-    color:red
+body{
+    margin: 0px;
+    padding: 0px;
 }
-@media(max-width:200px){
-h2{color:purple;
-}
+nav{
+    background-color: #9D4BEB;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content:space-between;
 }
 
-.navigation{background-color:blueviolet}
-#navs{color:greenyellow}
-.navigation{ display:flex;
-justify-content:space-evenly;
-align-items:center;
-
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
 }
-.menu_item{display:flex;
-gap: 20px;}
 
+.logo div{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.menu_item{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu_item a{
+    color: white;
+    text-decoration: none;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.info div{
+    display: flex;
+    font-size: 14px;
+}
+
+.callbutton{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    /* height: 40px;
+    width: 200px; */
+}
